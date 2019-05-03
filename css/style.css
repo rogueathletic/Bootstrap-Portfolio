@@ -727,7 +727,7 @@ img {
 .front-paralax {
   width: 960px;
   height: 733px;
-  background-image: url(/images/front-paralax.png), url(/image/img-tint.svg);
+  background-image: url(https://github.com/rogueathletic/schutz-paralax-1/blob/master/images/front-paralax.png?raw=true), url(/image/img-tint.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -739,7 +739,7 @@ img {
 .back-paralax {
   width: 100%;
   height: 298px;
-  background-image: url(/images/back-paralax.png), url(/image/img-tint.svg);
+  background-image: url(https://github.com/rogueathletic/schutz-paralax-1/blob/master/images/back-paralax.png?raw=true), url(/image/img-tint.svg);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
