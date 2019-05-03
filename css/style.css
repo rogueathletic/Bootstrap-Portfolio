@@ -705,7 +705,7 @@ img {
 .paralax-header-box {
   position: relative;
   height: 100vh;
-  background: linear-gradient(0deg, #4CA59B 40%, #1e443f 50%, #000 10%), url(/image/img-tint.svg);
+  background: linear-gradient(0deg, #4CA59B 40%, #1e443f 50%, #000 10%), url(./image/img-tint.svg);
   background: -webkit-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
   background: -o-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
   background: -moz-linear-gradient(0deg, #4CA59B 0%, #4ca59b 100%);
