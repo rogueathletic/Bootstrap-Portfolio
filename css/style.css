@@ -717,7 +717,7 @@ img {
 .clock {
   height: 100%;
   width: 100%;
-  background-image: url(../images/clock.png), url(../image/img-tint.svg);
+  background-image: url(./images/clock.png), url(./image/img-tint.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -727,7 +727,7 @@ img {
 .front-paralax {
   width: 960px;
   height: 733px;
-  background-image: url(../images/front-paralax.png), url(../image/img-tint.svg);
+  background-image: url(./images/front-paralax.png), url(./image/img-tint.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -739,7 +739,7 @@ img {
 .back-paralax {
   width: 100%;
   height: 298px;
-  background-image: url(../images/back-paralax.png), url(../image/img-tint.svg);
+  background-image: url(./images/back-paralax.png), url(./image/img-tint.svg);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
@@ -779,7 +779,7 @@ margin: 0 0 10px 0;}
 }
 
 #menu-icon {
-  background: url(../images/menu-icon.svg);
+  background: url(./images/menu-icon.svg);
   padding: 20px;
   margin: 10px 0 0 95vw;
 max-width: 20px!important;
@@ -793,7 +793,7 @@ max-height: 20px!important;
 #white-mound { 
   width: 100%;
   height: 298px;
-  background-image: url(../images/white-mound.svg), url(../image/img-tint.svg);
+  background-image: url(./images/white-mound.svg), url(./image/img-tint.svg);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
