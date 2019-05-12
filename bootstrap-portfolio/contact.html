@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                crossorigin="anonymous">
+                    <link rel = "stylesheet" 
+                        type = "text/css" 
+                            href = "./styles/style.css" />
+                                <meta charset="UTF-8">
+                                    <meta name="viewport" 
+                                        content="width=device-width, initial-scale=1.0">
+                                            <meta http-equiv="X-UA-Compatible" 
+                                                content="ie=edge">
+
+        <title>Contact Us</title>
+    <header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="./index.html"> <div class="name">JASON SCHUTZ</div></a>
+                    </div>
+                        <div class="col"><p>
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./index.html">ABOUT</a>
+                                        </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
+                                                    </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="./contact.html">CONTACT</a>
+                                                                </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link disabled" href="#">&nbsp;</a>
+                                                                            </li>
+                                                                                </ul>
+                                                                                    </p>
+    </header>
+</head>
+
+    <body>
+        <div class="body-container">
+            <div class="container">
+                <div class="container-fluid">
+                    <h1>Contact Us</h1>
+                        <hr>
+                            <form id="contact-form" method="post" action="contact.php" role="form">
+                                <div class="messages"></div>
+                                    <div class="controls">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_name">First Name</label>
+                                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                                            <div class="help-block with-errors"></div>
+                                                                </div>
+                                                                    </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label for="form_lastname">Last Name</label>
+                                                                                    <input id="form_lastname" 
+                                                                                        type="text" 
+                                                                                            name="surname" 
+                                                                                                class="form-control" 
+                                                                                                    placeholder="Please enter your lastname *" 
+                                                                                                        required="required" 
+                                                                                                            data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                            </div>
+                                                </div>
+                                                    </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <label for="form_email">your@email.com</label>
+                                                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                                                            <div class="help-block with-errors"></div>
+                                                                                </div>
+                                                                                    </div>
+                                                                                        <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                <label for="form_need">Subject:</label>
+                                                                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                                        <option value=""></option>
+                                                                    <option value="New Website">Request quote | New Website</option>
+                                                                <option value="New Ecommerce Site">Request quote | New Ecommerce Site</option>
+                                                            <option value="Refresh my website">Request quote | Refresh my website</option>
+                                                        <option value="Maximize my SEO">Request quote | Maximize my SEO</option>
+                                                    <option value=" Create an adwords account">Request quote | Create an adwords account</option>
+                                                <option value="Branding">Request quote | Branding</option>
+                                            <option value="Go to market initiative">Request quote | Go to market initiative</option>
+                                        <option value="All things Social Media">Request quote | All things Social Media</option>
+                                    <option value="Schedule a High-5n">Schedule High-5</option>
+                                <option value="Sporting goods Industry">Sporting goods Industry</option>
+                            <option value="General Question">General Question</option>
+                        <option value="lunch">Lets get lunch</option>
+                    <option value="Other">Other</option>
+                </select>
+            <div class="help-block with-errors">
+        </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                                    <div class="help-block with-errors"></div>
+                                                        </div>
+                                                            </div>
+                                                                <div class="col-md-12">
+                                                                    <input 
+                                                                        type="submit" 
+                                                                            class="btn btn-success btn-info" 
+                                                                                value="Send message">
+                                                                                    </div>
+                                                                                        </div>
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-12">
+                                                                                                    <p class="text-muted">
+                                                                                                        <strong>*</strong> These fields are required. 
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </form>
+                                                                                            </div>
+                                                                                                </div>
+                                                                                                    </div>
+                                                                                                        </div>                                
+    <div class="footer">
+        <Footer>
+            <div class="row">
+                <div class="col">
+                    &nbsp;
+                        </div>
+                            <div class="col">
+                                © 2018 | Jason Schutz
+                                    </div>
+                                        <div class="col">
+                                            &nbsp;
+                                                </div>
+                                                    </div>
+                                                        </div>
+                                                            </Footer>
+                                                                </div>
+                                                                    <div class="container">       
+</body>
+</html>

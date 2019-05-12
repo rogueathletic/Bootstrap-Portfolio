@@ -1,0 +1,52 @@
+/* #mc_embed_signup,
+#mc-embedded-subscribe-form,
+input.mce_inline_error {
+opacity: .99;
+
+} */
+
+#mce-FNAME {
+    width: 389px!important;
+    height: 35px!important;
+    background-color: transparent!important;
+    color: white!important;
+    border-radius: 5px 0 10px 5px!important;
+    }
+
+#mce-LNAME {
+    width: 389px!important;
+    height: 35px!important;
+    background-color: transparent!important;
+    color: white!important;
+    outline: none!important;
+    border-radius: 5px 0 10px 5px!important;
+    }
+
+#mce-EMAIL {
+    width: 389px!important;
+    height: 35px!important;
+    background-color: transparent!important;
+    color: white!important;
+    outline: none!important;
+    border-radius: 5px 0 10px 5px!important;
+    }
+
+#mce-MMERGE3 {
+    width: 389px!important;
+    border-radius: 5px 0 45px 5px!important;
+    }
+
+#mc-embedded-subscribe {
+Width: 389px!important;
+background-color: #66aeae!important;
+max-height: 26px!important;
+border-radius: 5px 0 10px 5px!important;
+}
+
+#mc-embedded-subscribe:active {
+    color: grey!important;
+}
+
+* {
+    outline: none!important;
+}
